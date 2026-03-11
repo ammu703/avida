@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.outer-box {
+  border:1px solid black;
+   width:auto;
+  height:auto;
+  margin:auto;
+  align-items:top;
+}
+.inner-box {
+  width:300px;
+  height:300px;
+  margin:auto;
+  border:1px solid black;
+}
+div{
+    text-align:center;
+}
+    h1{
+        background-color:powderblue;
+        padding:20px;
+    }
+    h5{
+        background-color:black;
+        color:white;
+    }
+ form {
+  border-radius:5px;
+  padding:2px;
+}
+label {display:block;}
+input[type=text],select{
+  width:100%;
+  padding:12px;
+  margin:8px ;
+  border:1px solid #ccc;
+  border-radius:4px;
+  box-sizing:border-box;
+}
+
+input[type=submit] {
+  width:100%;
+  background-color:powderblue;
+  color:black;
+  padding:4px;
+  margin:8px ;
+  cursor:pointer;
+}
+
+input[type=submit]:hover {
+  background-color:powderblue;
+}    
+            </style>
+            </head>
+            <body>
+                <h1 style="text-align:center">ANNAMACHARYA UNIVERSITY</h1><br>
+                <h5 style="text-align:center">home         About        Contact</h5><br>
+                <form>
+                    <div class="outer-box">
+                    <h2 style="text-align: left;">welcome to my website</h2><br>
+                    <p  style="text-align: left;">this is a simple website layout</p><br>
+                    <div class="inner-box"  style="padding:40px;">
+                    <h4 style="text-align:center">Student login</h4><br>
+                    <lable for="uname">registration number</lable><br>
+                    <input type="text" id="uname" name="uname" value="enter number">
+                    <lable for="password">Password:</lable><br>
+                    <input type="text" id="password" name="password" value="enter password">
+                    <input type="submit" value="Login">
+    
+                    </div>
+                    </div>
+                </form>
+            </body>
+</html>
